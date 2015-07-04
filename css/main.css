@@ -28,10 +28,6 @@ img {
 .short-nav {
 	display: none;
 }
-
-.long-nav { 
-	display: block 
-}
 nav {
 	text-align: center;
 }
@@ -40,6 +36,7 @@ nav ul {
 }
 nav li {
 	display: inline-block;
+	display: inline;
 }
 
 nav a {
@@ -47,6 +44,7 @@ nav a {
 	color: black;
 	border-bottom: solid black;
 	padding: 1em;
+	display: inline-block;
 }
 .heading {
 	text-align: center;
@@ -55,3 +53,33 @@ nav a {
 .banner {
 
 }
+
+.article {
+	border-bottom: solid 1px black;
+	border-top: solid 1px black;
+}
+
+@media only screen and (min-width: 25em) {
+}
+
+
+@media only screen and (min-width: 38em) {
+}
+
+
+@media only screen and (min-width: 60em) {
+	.long-nav { 
+	display: inline-block 
+
+}
+
+
+
+
+
+
+
+
+
+
+
