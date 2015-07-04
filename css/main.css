@@ -19,4 +19,39 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+
+}
+img {
+	width: 100%;
+}
+
+.short-nav {
+	display: none;
+}
+
+.long-nav { 
+	display: block 
+}
+nav {
+	text-align: center;
+}
+nav ul {
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	border-bottom: solid black;
+	padding: 1em;
+}
+.heading {
+	text-align: center;
+}
+
+.banner {
+
 }
