@@ -29,7 +29,7 @@ img {
 	display: none;
 }
 nav {
-
+	padding: .5em;
 	background-color: white;
 }
 nav ul {
@@ -62,41 +62,32 @@ nav a {
 
 nav a {
 	margin: 0;
+
 }
 
 nav li{
 	padding-right: .5em;
+	
 }
 
 .col-red a {
 	color: red;
-	border-bottom: solid 1px red;
-	display: flex;
 	
-	padding: .5em;
 }
+
+
 .col-blue a{
 	color: blue;
-	border-bottom: solid 1px blue;
-
-	display: flex;
-	padding: .5em;
+	
 	
 }
 .col-yellow a{
 	color: yellow;
-	border-bottom: solid 1px yellow;
 	
-	display: flex;
-	padding: .5em;
 
 }
 .col-orange a{
 	color: orange;
-	border-bottom: solid 1px orange;
-	
-	display: flex;
-	padding: .5em;
 }
 
 .margin-space {
@@ -106,7 +97,24 @@ nav li{
 .article div {
 	padding-right: 1em;
 	padding-left: 1em;
+}
+.col-red hr {
+	border: solid 1px red;
 } 
+.col-blue hr {
+	border: solid 1px blue;
+} 
+.col-yellow hr {
+	border: solid 1px yellow;
+} 
+.col-orange hr {
+	border: solid 1px orange;
+} 
+
+footer {
+	text-align: center;
+}
+
 
 
 
