@@ -21,6 +21,17 @@ body {
 	padding: 0;
 
 }
+header {
+
+	margin-bottom: 3em;
+
+}
+.heading {
+	background-color: #ccc;
+	margin: 0;
+
+
+}
 img {
 	width: 100%;
 }
@@ -29,29 +40,37 @@ img {
 	display: none;
 }
 nav {
-	padding: .5em;
+	padding: .5 .5 0 .5;
 	background-color: white;
+
+	
+	
+
 }
 nav ul {
 	padding: 0;
+	margin: 0;
+
 
 }
 
 nav a {
 	text-decoration: none;
 	color: black;
-	margin-left: .5em;	
+	margin-left: .5em;
+
 	}
 
 
 .center-header {
 	text-align: center;
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 
 }
 .banner-text {
 	position: absolute;
 	top: 10em;
+	text-align: center; 
 
 }
 
@@ -67,11 +86,15 @@ nav a {
 
 nav li{
 	padding-right: .5em;
+	position: relative;
+	top: 20px;
+
 	
 }
 
 .col-red a {
 	color: red;
+
 	
 }
 
@@ -115,6 +138,11 @@ footer {
 	text-align: center;
 }
 
+hr {
+	padding: 0;
+	margin: 0;
+}
+
 
 
 
@@ -123,8 +151,17 @@ footer {
 
 
 @media only screen and (min-width: 38em) {
+
+	.bottom-nav{
+		float: right;
+
+	
 }
 
+header {
+	border-bottom: solid black;
+}
+}
 
 @media only screen and (min-width: 60em) {
 	.long-nav { 
