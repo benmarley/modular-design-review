@@ -25,12 +25,15 @@ header {
 
 	margin-bottom: 3em;
 
+
 }
 .heading {
 	background-color: #ccc;
 	margin: 0;
-
-
+	font-size: 2rem;
+}
+.article {
+	padding-top: 1em;
 }
 img {
 	width: 100%;
@@ -40,8 +43,9 @@ img {
 	display: none;
 }
 nav {
-	padding: .5 .5 0 .5;
+	
 	background-color: white;
+
 
 	
 	
@@ -58,7 +62,7 @@ nav a {
 	text-decoration: none;
 	color: black;
 	margin-left: .5em;
-
+	border-bottom: solid 3px;
 	}
 
 
@@ -87,13 +91,14 @@ nav a {
 nav li{
 	padding-right: .5em;
 	position: relative;
-	top: 20px;
+	top: 10px;
 
 	
 }
 
 .col-red a {
 	color: red;
+	padding: .7em;
 
 	
 }
@@ -101,16 +106,19 @@ nav li{
 
 .col-blue a{
 	color: blue;
+	padding: .7em;
 	
 	
 }
 .col-yellow a{
 	color: yellow;
+	padding: .7em;
 	
 
 }
 .col-orange a{
 	color: orange;
+	padding: .7em;
 }
 
 .margin-space {
@@ -121,18 +129,7 @@ nav li{
 	padding-right: 1em;
 	padding-left: 1em;
 }
-.col-red hr {
-	border: solid 1px red;
-} 
-.col-blue hr {
-	border: solid 1px blue;
-} 
-.col-yellow hr {
-	border: solid 1px yellow;
-} 
-.col-orange hr {
-	border: solid 1px orange;
-} 
+
 
 footer {
 	text-align: center;
@@ -157,10 +154,16 @@ hr {
 
 	
 }
-
-header {
-	border-bottom: solid black;
+.center-header {
+	/*padding-bottom: .2em;*/
+	border-bottom: solid 2px #ccc;
 }
+
+.heading {
+		max-width: 200px;
+}
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -169,7 +172,15 @@ header {
 }
 
 	nav {
-	padding-left: 20%;
+	/*padding-left: 20%;*/
+	float: right;
+
+}
+
+
+li {
+	max-width: 140px;
+
 }
 }
 
