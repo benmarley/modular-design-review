@@ -22,7 +22,7 @@ body {
 
 }
 header {
-
+	text-align: center;
 	margin-bottom: 3em;
 
 
@@ -31,6 +31,7 @@ header {
 	background-color: #ccc;
 	margin: 0;
 	font-size: 2rem;
+
 }
 .article {
 	padding-top: 1em;
@@ -45,36 +46,46 @@ img {
 nav {
 	
 	background-color: white;
+	width:100%;
+}
 
-
-	
-	
-
+.underline {
+	display: none;
 }
 nav ul {
 	padding: 0;
 	margin: 0;
-
-
 }
+
+
 
 nav a {
 	text-decoration: none;
 	color: black;
 	margin-left: .5em;
-	border-bottom: solid 3px;
-	}
+	
+	margin: 0;
+	width: 100%;
+
+
+}
+
 
 
 .center-header {
-	text-align: center;
+	
 	/*background-color: #ccc;*/
 
 }
+
+.banner {
+	position: relative;
+}
 .banner-text {
+	text-align: center;
 	position: absolute;
-	top: 10em;
-	text-align: center; 
+	top:50%;
+	left: 38%;	
 
 }
 
@@ -83,22 +94,25 @@ nav a {
 	border-top: solid 1px black;
 }
 
-nav a {
-	margin: 0;
 
-}
-
-nav li{
+nav li {
 	padding-right: .5em;
 	position: relative;
 	top: 10px;
+	float: right;
+	border-bottom: solid 3px;
+
+	list-style-type: none;
+	width: 100%;
+
 
 	
 }
 
 .col-red a {
 	color: red;
-	padding: .7em;
+	/*padding: .7em;*/
+
 
 	
 }
@@ -107,14 +121,10 @@ nav li{
 .col-blue a{
 	color: blue;
 	padding: .7em;
-	
-	
 }
 .col-yellow a{
 	color: yellow;
 	padding: .7em;
-	
-
 }
 .col-orange a{
 	color: orange;
@@ -135,24 +145,19 @@ footer {
 	text-align: center;
 }
 
-hr {
-	padding: 0;
-	margin: 0;
-}
-
-
-
-
 @media only screen and (min-width: 25em) {
 }
 
 
 @media only screen and (min-width: 38em) {
 
+	.left-float-bottom {
+		float: left;
+	}
+
 	.bottom-nav{
 		float: right;
-
-	
+		padding-right: .5em;	
 }
 .center-header {
 	/*padding-bottom: .2em;*/
@@ -160,8 +165,22 @@ hr {
 }
 
 .heading {
-		max-width: 200px;
+		max-width: 230px;
+		padding-left: .5em;
+	padding-right: 1em;
 }
+
+.nav-grid {
+	float: right;
+}
+
+nav ul {
+	float: right;
+}
+nav a {
+	width: 100%;
+}
+
 
 
 }
@@ -172,17 +191,16 @@ hr {
 }
 
 	nav {
-	/*padding-left: 20%;*/
-	float: right;
-
+	position: relative;
+/*	float: right;*/
 }
-
 
 li {
 	max-width: 140px;
+}
+}
 
-}
-}
+
 
 
 
