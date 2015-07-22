@@ -27,6 +27,8 @@ header {
 
 
 }
+
+
 .heading {
 	background-color: #ccc;
 	margin: 0;
@@ -180,7 +182,11 @@ nav ul {
 nav a {
 	width: 100%;
 }
-
+/*
+.bumper {
+	display: inline-block;
+	
+}*/
 
 
 }
