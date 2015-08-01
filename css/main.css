@@ -102,7 +102,7 @@ nav li {
 	position: relative;
 	top: 10px;
 	float: right;
-	border-bottom: solid 3px;
+	
 
 	list-style-type: none;
 	width: 100%;
@@ -113,7 +113,9 @@ nav li {
 
 .col-red a {
 	color: red;
-	/*padding: .7em;*/
+	padding: .7em;
+	white-space: nowrap;
+	border-bottom: solid 3px;
 
 
 	
@@ -123,14 +125,20 @@ nav li {
 .col-blue a{
 	color: blue;
 	padding: .7em;
+	white-space: nowrap;
+	border-bottom: solid 3px;
 }
 .col-yellow a{
 	color: yellow;
 	padding: .7em;
+	white-space: nowrap;
+	border-bottom: solid 3px;
 }
 .col-orange a{
 	color: orange;
 	padding: .7em;
+	white-space: nowrap;
+	border-bottom: solid 3px;
 }
 
 .margin-space {
@@ -146,6 +154,16 @@ nav li {
 footer {
 	text-align: center;
 }
+
+.block-display {
+	display: none;
+}
+
+.page-title {
+	padding-left: 15%;
+}
+
+
 
 @media only screen and (min-width: 25em) {
 }
@@ -182,11 +200,6 @@ nav ul {
 nav a {
 	width: 100%;
 }
-/*
-.bumper {
-	display: inline-block;
-	
-}*/
 
 
 }
@@ -201,9 +214,20 @@ nav a {
 /*	float: right;*/
 }
 
-li {
+/*li {
 	max-width: 140px;
+	display: inline-block;
+}*/
+
+.block-display {
+	display: inline-block;
 }
+
+.sidebumper {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 }
 
 
